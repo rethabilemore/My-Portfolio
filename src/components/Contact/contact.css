@@ -1,0 +1,22 @@
+.container.contact_container {
+    justify-content: center;
+    display: grid;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+input, textarea {
+    width: 50%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: var(--color-bg-variant);
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid transparent;
+    resize: none;
+    color: var(--color-black);
+}
+

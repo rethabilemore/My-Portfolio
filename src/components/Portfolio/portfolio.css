@@ -1,0 +1,12 @@
+.portfolio container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+}
+
+.portfolio_item {
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition)
+}
